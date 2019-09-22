@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="288.0" prefWidth="345.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter.pkg15.exercises.RPSController">
+   <children>
+      <ImageView fx:id="imgPlayer" fitHeight="150.0" fitWidth="150.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgCom" fitHeight="150.0" fitWidth="150.0" layoutX="179.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnRock" layoutX="14.0" layoutY="175.0" mnemonicParsing="false" onAction="#rockListener" prefHeight="25.0" prefWidth="110.0" text="Rock" />
+      <Button fx:id="btnPaper" layoutX="14.0" layoutY="209.0" mnemonicParsing="false" onAction="#paperListener" prefHeight="25.0" prefWidth="110.0" text="Paper" />
+      <Button fx:id="btnScissors" layoutX="14.0" layoutY="244.0" mnemonicParsing="false" onAction="#scissorsListener" prefHeight="25.0" prefWidth="110.0" text="Scissors" />
+      <Label layoutX="179.0" layoutY="179.0" text="Computers choice:" />
+      <TextField fx:id="txtResult" editable="false" layoutX="179.0" layoutY="209.0" prefHeight="25.0" prefWidth="110.0" />
+      <Label fx:id="txtMessage" layoutX="179.0" layoutY="248.0" text="You Win!" />
+   </children>
+</AnchorPane>

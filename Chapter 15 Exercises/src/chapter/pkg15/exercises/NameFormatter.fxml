@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="237.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter.pkg15.exercises.NameFormatController">
+   <children>
+      <Label layoutX="43.0" layoutY="14.0" text="First Name:" />
+      <Label layoutX="26.0" layoutY="48.0" text="Middle Name:" />
+      <Label layoutX="43.0" layoutY="83.0" text="Last Name:" />
+      <Label layoutX="24.0" layoutY="120.0" text="Preferred Title:" />
+      <TextField fx:id="txtFirst" layoutX="111.0" layoutY="10.0" />
+      <TextField fx:id="txtMiddle" layoutX="111.0" layoutY="44.0" />
+      <TextField fx:id="txtLast" layoutX="111.0" layoutY="79.0" />
+      <TextField fx:id="txtTitle" layoutX="111.0" layoutY="116.0" />
+      <Button fx:id="btnFormat1" layoutX="274.0" layoutY="10.0" mnemonicParsing="false" onAction="#format1Listener" text="Format 1" />
+      <Button fx:id="btnFormat2" layoutX="274.0" layoutY="44.0" mnemonicParsing="false" onAction="#format2Listener" text="Format 2" />
+      <Button fx:id="btnFormat3" layoutX="274.0" layoutY="79.0" mnemonicParsing="false" onAction="#format3Listener" text="Format 3" />
+      <Button fx:id="btnFormat4" layoutX="274.0" layoutY="116.0" mnemonicParsing="false" onAction="#format4Listener" text="Format 4" />
+      <Button fx:id="btnFormat5" layoutX="274.0" layoutY="152.0" mnemonicParsing="false" onAction="#format5Listener" text="Format 5" />
+      <Button fx:id="btnFormat6" layoutX="274.0" layoutY="188.0" mnemonicParsing="false" onAction="#format6Listener" text="Format 6" />
+      <TextField fx:id="txtResult" layoutX="14.0" layoutY="188.0" prefHeight="25.0" prefWidth="245.0" />
+      <Label layoutX="24.0" layoutY="156.0" text="Result:" />
+   </children>
+</AnchorPane>

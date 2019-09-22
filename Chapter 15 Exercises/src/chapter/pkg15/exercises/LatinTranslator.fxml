@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="129.0" prefWidth="201.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter.pkg15.exercises.LatinController">
+   <children>
+      <Button fx:id="btnSinister" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#sinisterListener" prefHeight="25.0" prefWidth="61.0" text="Sinister" />
+      <Button fx:id="btnDexter" layoutX="14.0" layoutY="50.0" mnemonicParsing="false" onAction="#dexterListener" prefHeight="25.0" prefWidth="61.0" text="Dexter" />
+      <Button fx:id="btnMedium" layoutX="14.0" layoutY="87.0" mnemonicParsing="false" onAction="#mediumListener" text="Medium" />
+      <Label layoutX="93.0" layoutY="18.0" text="English:" />
+      <TextField fx:id="txtEnglish" layoutX="93.0" layoutY="50.0" prefHeight="25.0" prefWidth="84.0" />
+   </children>
+</AnchorPane>
